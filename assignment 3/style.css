@@ -1,0 +1,133 @@
+
+.* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* Container to center the hero section */
+.parent-container {
+    margin: 100px;
+    /* Space outside the container */
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+/* Hero section styling */
+.hero-section {
+    
+    width: 100vw;
+    height: 50vh;
+    background-color: #F3EED9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:1em;
+   
+}
+
+/* Content styling */
+.content {
+    text-align: center;
+}
+
+/* Heading styles */
+h1 {
+    color: rgba(185, 70, 70, 0.913);
+}
+
+h6 {
+    color: black;
+}
+/*second div */
+.main-1{
+text-align: center;
+margin-bottom:20px;
+font-size:1.5em;
+}
+.lorem{
+    column-count:2;
+    column-gap:5%;
+    font-size:1em;
+}
+.lorem::main-1{
+    width: 100vw;
+    height: 50vh;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+ h2{
+        color: rgba(185, 70, 70, 0.913);
+    }
+    /*third div */
+    .main-2{
+        text-align: left;
+        width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: flex-start;;
+    background-color:black;
+    
+    }
+    h4{color:white;
+        padding-left: 10px;
+        float:left;
+font-size :1.5em;
+    }
+    h5{
+        font-size:1em;
+        color:white;
+        float:left;
+    }
+    .box{
+        position: relative;
+        top: 20px; 
+      right: 0px; 
+        left:100px;
+        height: 300px;
+        width:400px;
+        float:right;
+        
+    }
+    .box1{
+        background-image:url("https://cdn.pixabay.com/photo/2013/05/11/08/28/sunset-110305_640.jpg");
+        background-size:cover;
+        display: block;
+        }
+/*fourth div */
+     .footer{
+        text-align:right;
+        width: 100vw;
+        height: 50vh;
+        display: flex;
+        justify-content: flex-end;
+        background-color:brown;
+        overflow:hidden;
+        padding:20px;
+       
+
+         
+    }
+    h3{color:white;
+line-break:anywhere;
+font-size: 2em;
+    }
+    .main{
+        position: relative;
+      top: 20px; 
+      margin-right:50px; 
+        left:0%;
+        height: 300px;
+        width:400px;
+    }
+    .main1{background-image:url("https://images.unsplash.com/photo-1604725333736-1f962a6218d0?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmVhdXRpZnVsJTIwc3Vuc2V0fGVufDB8fDB8fHww");
+
+    background-size:cover;}
+    
